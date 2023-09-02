@@ -62,6 +62,20 @@ The model generates predictions in the form of binary values:
 - 0: No heart disease detected.
 - 1: Heart disease detected.
 
+## Machine Learning Details
+- Language Used: Python.
+- Libraries Used:
+  - `numpy` as `np`
+  - `pandas` as `pd`
+  - `train_test_split` from `sklearn.model_selection`
+  - `LogisticRegression` from `sklearn.linear_model`
+  - `accuracy_score` from `sklearn.metrics`.
+- Train-Test Split: 20% test and 80% train data.
+- Model Used: Logistic Regression.
+- Software Used: Google Colab, Jupyter Notebook.
+- Pre-processed Dataset: Contains 303 rows and 13 columns, with 1 target column.
+- Model Accuracy: 82%
+
 ## Live Link
 
 A live version of this heart disease prediction system is available for interactive use. You can access it here -> [Google_Colaboratory_Link](https://colab.research.google.com/drive/1Q2ioXVZ3SUF2fxXMwqzv1ePMEU-8OUOP?usp=drive_link).
