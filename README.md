@@ -3,6 +3,20 @@
 ## Introduction
 This README provides an overview of an ML project for heart disease prediction, along with key information on its attributes and the machine learning model used for prediction. The dataset contains information from includes four databases: Cleveland, Hungary, Switzerland, and Long Beach V. It consists of 76 attributes, but all published experiments refer to using a subset of 14 of them. The primary target attribute is "target," which indicates the presence of heart disease in the patient. It is an integer value where 0 represents no disease and 1 represents the presence of disease.
 
+## Machine Learning Details
+- Language Used: Python.
+- Libraries Used:
+  - `numpy` as `np`
+  - `pandas` as `pd`
+  - `train_test_split` from `sklearn.model_selection`
+  - `LogisticRegression` from `sklearn.linear_model`
+  - `accuracy_score` from `sklearn.metrics`.
+- Train-Test Split: 20% test and 80% train data.
+- Model Used: Logistic Regression.
+- Software Used: Google Colab, Jupyter Notebook.
+- Pre-processed Dataset: Contains 303 rows and 13 columns, with 1 target column.
+- Model Accuracy: 82%
+
 ## Methodology
 
 ![image](https://github.com/sehajbirmann/Heart-Attack-Prediction/assets/72991473/7164fb1c-6310-4d25-91c3-514d9d300451)
@@ -62,19 +76,6 @@ The model generates predictions in the form of binary values:
 - 0: No heart disease detected.
 - 1: Heart disease detected.
 
-## Machine Learning Details
-- Language Used: Python.
-- Libraries Used:
-  - `numpy` as `np`
-  - `pandas` as `pd`
-  - `train_test_split` from `sklearn.model_selection`
-  - `LogisticRegression` from `sklearn.linear_model`
-  - `accuracy_score` from `sklearn.metrics`.
-- Train-Test Split: 20% test and 80% train data.
-- Model Used: Logistic Regression.
-- Software Used: Google Colab, Jupyter Notebook.
-- Pre-processed Dataset: Contains 303 rows and 13 columns, with 1 target column.
-- Model Accuracy: 82%
 
 ## Live Link
 
